@@ -1,8 +1,8 @@
 replicaCount: 3
 
 image:
-  repository: nginx
-  tag: "1.27-alpine"
+  repository: public.ecr.aws/w8c9p1w6/demo-app
+  tag: "8d9016b"
   pullPolicy: IfNotPresent
 
 service:
