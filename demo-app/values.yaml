@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: public.ecr.aws/w8c9p1w6/demo-app
-  tag: "8d9016b"
+  tag: "ae7edab"
   pullPolicy: IfNotPresent
 
 service:
