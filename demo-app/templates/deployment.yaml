@@ -22,10 +22,3 @@ spec:
             - containerPort: 80
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-          volumeMounts:
-            - name: html
-              mountPath: /usr/share/nginx/html
-      volumes:
-        - name: html
-          configMap:
-            name: {{ .Release.Name }}-html
